@@ -1,9 +1,32 @@
-body {
-    background-color:antiquewhite;
-    margin: 30px 0 0 40px;
-    color: rgb(53, 52, 83);
-    font-family: Arial;
-    text-align: center;
+@media (min-width: 1250px){
+    body {
+        background-color:antiquewhite;
+        padding: 20px 420px;    
+        color: rgb(53, 52, 83);
+        font-family: Arial;
+        text-align: center;
+    }
+}
+
+@media (min-width: 850px) and (max-width: 1250px){
+    body {
+        background-color:antiquewhite;
+        padding: 20px 180px;    
+        color: rgb(53, 52, 83);
+        font-family: Arial;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 850px){
+    body {
+        background-color:antiquewhite;
+        padding: 20px 40px;    
+        color: rgb(53, 52, 83);
+        font-family: Arial;
+        text-align: center;
+    }
 }
 
 a {
